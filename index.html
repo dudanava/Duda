@@ -4,7 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Do Campo para a Cidade, Colhendo Oportunidades</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+    <style>
+        /* Estilos CSS */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+
+        .main-content {
+            background-color: #fff;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+            cursor: pointer; /* Adicionando cursor pointer para indicar que é clicável */
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        /* Estilos adicionais para o novo texto */
+        #passosHorta {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #777;
+        }
+        /* Estilo para redimensionar a imagem */
+        img {
+            max-width: 100%; /* Define a largura máxima da imagem como 100% do seu contêiner pai */
+            height: auto; /* Mantém a proporção da imagem */
+            display: block; /* Remove espaços em branco indesejados ao redor da imagem */
+            margin: 20px auto; /* Adiciona margens acima e abaixo da imagem e centraliza horizontalmente */
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -15,8 +101,10 @@
     <section class="main-content">
         <div class="container">
             <h3>Conectando o Rural ao Urbano</h3>
-            <p>Conectar o rural ao urbano é essencial para promover um desenvolvimento sustentável e equitativo nas sociedades modernas. Essa conexão não se limita apenas à infraestrutura física, mas também à integração econômica e social entre áreas urbanas e rurais. Através de políticas eficazes de planejamento territorial e investimentos estratégicos em transporte e telecomunicações, é possível reduzir disparidades regionais, melhorar o acesso a serviços básicos como saúde e educação, e criar oportunidades econômicas para todos os cidadãos, independentemente de onde residam.</p>
-            <p>Além disso, conectar o rural ao urbano facilita a troca de conhecimentos e práticas entre diferentes comunidades, promovendo a inovação e a sustentabilidade. As áreas rurais frequentemente possuem recursos naturais valiosos e conhecimentos tradicionais que podem beneficiar as áreas urbanas em termos de segurança alimentar, conservação ambiental e adaptação às mudanças climáticas. Por outro lado, a urbanização planejada pode oferecer mercados mais amplos para produtos agrícolas e rurais, incentivando práticas agrícolas sustentáveis ​​e aumentando a renda das populações rurais. Assim, conectar esses dois mundos não apenas fortalece a economia nacional, mas também promove um desenvolvimento mais inclusivo e resiliente para toda a sociedade.</p>
+            <p>Conectar o rural ao urbano é essencial para promover um desenvolvimento sustentável e equitativo nas sociedades modernas. Essa conexão não se limita apenas à infraestrutura física, mas também à integração econômica e social entre áreas urbanas e rurais. Através de políticas eficazes de planejamento territorial e investimentos estratégicos em transporte e telecomunicações, é possível reduzir disparidades regionais, melhorar o acesso a serviços básicos como saúde e educação, e criar oportunidades econômicas para todos os cidadãos, independentemente de onde residam.
+            </p>
+            <p>Além disso, conectar o rural ao urbano facilita a troca de conhecimentos e práticas entre diferentes comunidades, promovendo a inovação e a sustentabilidade. As áreas rurais frequentemente possuem recursos naturais valiosos e conhecimentos tradicionais que podem beneficiar as áreas urbanas em termos de segurança alimentar, conservação ambiental e adaptação às mudanças climáticas. Por outro lado, a urbanização planejada pode oferecer mercados mais amplos para produtos agrícolas e rurais, incentivando práticas agrícolas sustentáveis ​​e aumentando a renda das populações rurais. Assim, conectar esses dois mundos não apenas fortalece a economia nacional, mas também promove um desenvolvimento mais inclusivo e resiliente para toda a sociedade.
+            </p>
             <button class="button" onclick="mostrarPassos()">Passo a Passo para uma Horta Compacta</button>
             <img src="fazendinha.png" alt="Imagem de exemplo">
             <div id="passosHorta"></div> <!-- Div para mostrar os passos da horta compacta -->
@@ -24,7 +112,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Do Campo para a Cidade.</p>
+        <p>&copy; 2024 Do Campo para a Cidade. Já podi si mata?</p>
     </footer>
 
     <script>
