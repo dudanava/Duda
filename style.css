@@ -1,0 +1,85 @@
+/* Estilos CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer; /* Adicionando cursor pointer para indicar que é clicável */
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* Estilos adicionais para o novo texto */
+#passosHorta {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #777;
+}
+
+/* Estilo para redimensionar a imagem */
+img {
+    max-width: 100%; /* Define a largura máxima da imagem como 100% do seu contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços em branco indesejados ao redor da imagem */
+    margin: 20px auto; /* Adiciona margens acima e abaixo da imagem e centraliza horizontalmente */
+}
