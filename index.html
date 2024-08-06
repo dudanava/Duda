@@ -74,6 +74,8 @@
             text-align: center;
             padding: 10px 0;
             width: 100%;
+            position: relative; /* Certifique-se de que o footer está na parte inferior da página */
+            bottom: 0; /* Posiciona o footer no final da página */
         }
 
         /* Estilos adicionais para o novo texto */
@@ -82,6 +84,7 @@
             font-size: 1.2em;
             color: #777;
         }
+        
         /* Estilo para redimensionar a imagem */
         img {
             max-width: 100%; /* Define a largura máxima da imagem como 100% do seu contêiner pai */
@@ -101,10 +104,8 @@
     <section class="main-content">
         <div class="container">
             <h3>Conectando o Rural ao Urbano</h3>
-            <p>Conectar o rural ao urbano é essencial para promover um desenvolvimento sustentável e equitativo nas sociedades modernas. Essa conexão não se limita apenas à infraestrutura física, mas também à integração econômica e social entre áreas urbanas e rurais. Através de políticas eficazes de planejamento territorial e investimentos estratégicos em transporte e telecomunicações, é possível reduzir disparidades regionais, melhorar o acesso a serviços básicos como saúde e educação, e criar oportunidades econômicas para todos os cidadãos, independentemente de onde residam.
-            </p>
-            <p>Além disso, conectar o rural ao urbano facilita a troca de conhecimentos e práticas entre diferentes comunidades, promovendo a inovação e a sustentabilidade. As áreas rurais frequentemente possuem recursos naturais valiosos e conhecimentos tradicionais que podem beneficiar as áreas urbanas em termos de segurança alimentar, conservação ambiental e adaptação às mudanças climáticas. Por outro lado, a urbanização planejada pode oferecer mercados mais amplos para produtos agrícolas e rurais, incentivando práticas agrícolas sustentáveis ​​e aumentando a renda das populações rurais. Assim, conectar esses dois mundos não apenas fortalece a economia nacional, mas também promove um desenvolvimento mais inclusivo e resiliente para toda a sociedade.
-            </p>
+            <p>Conectar o rural ao urbano é essencial para promover um desenvolvimento sustentável e equitativo nas sociedades modernas. Essa conexão não se limita apenas à infraestrutura física, mas também à integração econômica e social entre áreas urbanas e rurais. Através de políticas eficazes de planejamento territorial e investimentos estratégicos em transporte e telecomunicações, é possível reduzir disparidades regionais, melhorar o acesso a serviços básicos como saúde e educação, e criar oportunidades econômicas para todos os cidadãos, independentemente de onde residam.</p>
+            <p>Além disso, conectar o rural ao urbano facilita a troca de conhecimentos e práticas entre diferentes comunidades, promovendo a inovação e a sustentabilidade. As áreas rurais frequentemente possuem recursos naturais valiosos e conhecimentos tradicionais que podem beneficiar as áreas urbanas em termos de segurança alimentar, conservação ambiental e adaptação às mudanças climáticas. Por outro lado, a urbanização planejada pode oferecer mercados mais amplos para produtos agrícolas e rurais, incentivando práticas agrícolas sustentáveis ​​e aumentando a renda das populações rurais. Assim, conectar esses dois mundos não apenas fortalece a economia nacional, mas também promove um desenvolvimento mais inclusivo e resiliente para toda a sociedade.</p>
             <button class="button" onclick="mostrarPassos()">Passo a Passo para uma Horta Compacta</button>
             <img src="fazendinha.png" alt="Imagem de exemplo">
             <div id="passosHorta"></div> <!-- Div para mostrar os passos da horta compacta -->
